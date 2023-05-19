@@ -26,13 +26,13 @@ public class Point2D {
     }
 
     public void setXY(float x, float y){
-        this.x = x;
-        this.y = y;
+        setX(x);
+        setY(y);
     }
     public float[] getXY(){
         float[] arrPoint2D = new float[2];
-        arrPoint2D[0] = this.x;
-        arrPoint2D[1] = this.y;
+        arrPoint2D[0] = getX();
+        arrPoint2D[1] = getY();
         return arrPoint2D;
     }
 
